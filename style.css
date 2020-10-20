@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 微軟正黑體;
+}
+
+/*  橫幅  */
+#banner {
+    width: 100%;
+    /* vh螢幕高度 */
+    height: 100vh;
+    background-image: url(./img/beans.jpg);
+    /* 背景-尺寸 cover:填滿 - 50% - 500px */
+    box-sizing: cover;
+    color: whitesmoke;
+}
+
+/* 導覽列 */
+#banner nav {
+    text-align: center;
+    padding: 30px;
+}
+
+/* 導覽列內的連結 */
+#banner a {
+    color: whitesmoke;
+    /* 文字-裝飾：無 */
+    text-decoration: none;
+    font-size: 24px;
+    padding: 0 30px;
+    transition: 0.2s;
+}
+
+#banner a:hover {
+    color: #aaa;
+}
+
+#banner p {
+    color: whitesmoke;
+    text-align: left;
+    margin-top: 250px;
+    opacity: 0.8;
+    font-size: 20px;
+    padding: 10px 108px;
+}
+
+#banner hr {
+    width: 300px;
+    margin-left: 80px;
+    opacity: 0.8;
+}
+
+#banner h1 {
+    text-align: left;
+    font-size: 56px;
+    padding: 10px 30px;
+    opacity: 0.8;
+}
